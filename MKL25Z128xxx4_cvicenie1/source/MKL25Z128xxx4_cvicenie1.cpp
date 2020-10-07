@@ -57,7 +57,7 @@ int main(void) {
     BOARD_InitDebugConsole();
 #endif
 
-    PRINTF("Hello World %f \n", 0.05f);
+    PRINTF("Hello World %f \n", 0.10f);
 
     /* Force the counter to be placed into memory. */
     volatile static int i = 0 ;
